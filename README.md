@@ -50,7 +50,6 @@ Dessa forma, o projeto proporciona uma aplicação prática dos conceitos estuda
 | Larissa Fujiwara |
 | Gustavo Miguel |
 | Luan de Oliveira |
-| Victor Oliveira |
 
 
 ## 🗂️ Estrutura do repositório
