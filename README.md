@@ -45,7 +45,6 @@ Dessa forma, o projeto proporciona uma aplicação prática dos conceitos estuda
 | João Pedro Rodrigues |
 | Diego Troiani |
 | Isac de Souza |
-| Ingrid Barbosa |
 | Vivian Cristina |
 | Larissa Fujiwara |
 | Gustavo Miguel |
