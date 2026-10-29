@@ -49,7 +49,7 @@ A equipe propôs a **modelagem de um ERP integrado**, com dados organizados em u
 | **Financeiro** | Contas financeiras, obrigações a pagar/receber, movimentações e transferências |
 | **Auditoria** | Registros de operações críticas e detalhes das alterações |
 
-## 5. Estrutura do repositório e documentação
+## 4. Estrutura do repositório e documentação
 
 ```text
 📦 garage-hair-erp/
@@ -90,14 +90,14 @@ Diretório destinado aos arquivos relacionados à estrutura do banco de dados, d
 
 | Artefato | Para que serve | Localização |
 |:--|:--|:--|
-| **🗃️ Modelo conceitual (DER)** | Visualizar as entidades e as relações identificadas no negócio | [`docs/modelo-conceitual/`](./docs/modelo-conceitual/) |
-| **🗃️ Modelo lógico** | Entender a conversão para tabelas, chaves e relacionamentos | [`docs/modelo-logico/`](./docs/modelo-logico/) |
-| **🔄 Fluxogramas** | Acompanhar os processos analisados pela equipe | [`docs/fluxograma/`](./docs/fluxograma/) |
-| **💾 Banco de dados** | Reproduzir a estrutura, a carga, os testes e as consultas | [`sql/`](./sql/) |
-| **📄 Documentação técnica** | Consultar requisitos, regras de negócio, decisões de modelagem, normalização e dicionário de dados | [`documentacao-tecnica.pdf/`](./docs/documentacao-tecnica.pdf/) |
+| **🗃️ Modelo conceitual (DER)** | Visualizar as entidades e as relações identificadas no negócio | [`Modelo Conceitual`](./docs/modelo-conceitual/modelo-conceitual.pdf) |
+| **🗃️ Modelo lógico** | Entender a conversão para tabelas, chaves e relacionamentos | [`Modelo Lógico`](./docs/modelo-logico/modelo-logico.pdf) |
+| **🔄 Fluxogramas** | Acompanhar os processos analisados pela equipe | [`Fluxogramas`](./docs/fluxograma/) |
+| **💾 Banco de dados** | Reproduzir a estrutura, a carga, os testes e as consultas | [`Scripts SQL`](./sql/) |
+| **📄 Documentação técnica** | Consultar requisitos, regras de negócio, decisões de modelagem, normalização e dicionário de dados | [`Documentação Técnica`](./docs/documentacao-tecnica.pdf/) |
 
 
-## 6. Como executar o projeto
+## 5. Como executar o projeto
 
 Para reproduzir o banco, utilize **MySQL Server 8.0.16 ou superior** e, preferencialmente, o **MySQL Workbench**. É necessário ter permissão para criar bancos e tabelas.
 
@@ -110,7 +110,7 @@ Para reproduzir o banco, utilize **MySQL Server 8.0.16 ou superior** e, preferen
 5. Execute [`05_consultas_bi.sql`](./sql/05_consultas_bi.sql) para explorar as visões e consultas analíticas complementares.
 6. Por último, utilize [`03-testes_integridade.sql`](./sql/03-testes_integridade.sql) **teste por teste**. Esses comandos tentam gravar dados inválidos: os **erros são esperados** e evidenciam o funcionamento das restrições. Siga as instruções de transação e `ROLLBACK` presentes no arquivo.
 
-## 7. Evolução do projeto
+## 6. Evolução do projeto
 
 O histórico abaixo resume decisões registradas no **diário de bordo coletivo** e a progressão dos artefatos do repositório:
 
@@ -122,13 +122,13 @@ O histórico abaixo resume decisões registradas no **diário de bordo coletivo*
 | **Auditoria e normalização** | Reavaliação da modelagem, incluindo a associação entre barbeiros e especialidades, e discussão de 1FN, 2FN e 3FN |
 | **Implementação e verificação** | Construção do DDL, preparação da massa fictícia, elaboração de consultas e testes que verificam restrições de integridade |
 
-## 8. Considerações finais
+## 7. Considerações finais
 
 O **Garage Hair ERP** demonstra como necessidades de uma empresa podem ser traduzidas em um modelo de dados estruturado, com entidades, relacionamentos, regras de integridade e consultas capazes de gerar informações úteis.
 
 Mais do que criar tabelas, o projeto reúne **modelagem, revisão, implementação e validação**, estabelecendo uma base para a evolução futura de um sistema de gestão integrado para a barbearia.
 
-## 9. Equipe e informações acadêmicas
+## 8. Equipe e informações acadêmicas
 
 **Grupo 02 — Engenharia de Software · UNICID**
 
