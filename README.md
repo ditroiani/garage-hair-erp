@@ -14,9 +14,6 @@
 
 </div>
 
-> **_Projeto de Modelagem de Dados desenvolvido para a disciplina de Modelagem de Dados, sob orientação do Prof. Clóvis José Ramos Ferraro._**
-
-
 ## 1. Apresentação do projeto
 
 O **Garage Hair ERP** é um projeto de modelagem e implementação de banco de dados desenvolvido pelo **Grupo 02**, na disciplina de **Modelagem de Dados** da Universidade Cidade de São Paulo (UNICID), sob orientação do **Prof. Clóvis José Ramos Ferraro**.
