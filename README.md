@@ -128,9 +128,9 @@ O **Garage Hair ERP** demonstra como necessidades de uma empresa podem ser tradu
 
 Mais do que criar tabelas, o projeto reúne **modelagem, revisão, implementação e validação**, estabelecendo uma base para a evolução futura de um sistema de gestão integrado para a barbearia.
 
-## 8. Equipe e informações acadêmicas
+## 8. Equipe
 
-**Grupo 02 — Engenharia de Software · UNICID**
+**Grupo 02 — Engenharia de Software e ADS · UNICID**
 
 | Integrantes |
 |:--|
