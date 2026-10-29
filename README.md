@@ -6,6 +6,12 @@
 
 **UNICID — Universidade Cidade de São Paulo**
 
+<img
+  src="./assets/ecossistema-erp.png"
+  alt="Diagrama do ecossistema de dados do ERP Garage Hair"
+  width="900"
+/>
+
 </div>
 
 > **_Projeto de Modelagem de Dados desenvolvido para a disciplina de Modelagem de Dados, sob orientação do Prof. Clóvis José Ramos Ferraro._**
