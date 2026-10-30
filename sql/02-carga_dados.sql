@@ -3,9 +3,6 @@
 -- Compatível com as 43 tabelas do arquivo 01-estrutura.sql
 -- DADOS INTEGRALMENTE FICTICIOS: CPF, CNPJ, emails e URLs ilustrativos.
 -- PRÉ-REQUISITO: executar 01_estrutura.sql em banco recém-criado e vazio.
--- EXECUÇÃO: etapas 01 a 09 na ordem; cada etapa possui transacao própria.
--- ATENCAO: executar apenas UMA VEZ. IDs fixos facilitam relacionamentos.
--- Atributos gerados (produto.lucro_unitario e comanda_item.subtotal)
 -- ============================================================================
 
 USE garage_hair_erp;
