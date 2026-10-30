@@ -110,7 +110,7 @@ Para reproduzir o banco, utilize **MySQL Server 8.0.16 ou superior** e, preferen
 2. Conecte-se ao seu servidor MySQL. No menu **File → Open SQL Script**, abra [`01-estrutura.sql`](./sql/01-estrutura.sql) e execute o arquivo completo para criar o banco e as tabelas.
 3. Execute [`02-carga_dados.sql`](./sql/02-carga_dados.sql) para inserir a massa de dados fictícia. **A carga foi planejada para ser executada uma vez em um banco vazio.**
 4. Abra e execute [`04-consultas.sql`](./sql/04-consultas.sql) para consultar os registros, relacionamentos e views.
-5. Execute [`05_consultas_bi.sql`](./sql/05_consultas_bi.sql) para explorar as visões e consultas analíticas complementares.
+5. Execute [`05-consultas_bi.sql`](./sql/05_consultas_bi.sql) para explorar as visões e consultas analíticas complementares.
 6. Por último, utilize [`03-testes_integridade.sql`](./sql/03-testes_integridade.sql) **teste por teste**. Esses comandos tentam gravar dados inválidos: os **erros são esperados** e evidenciam o funcionamento das restrições. Siga as instruções de transação e `ROLLBACK` presentes no arquivo.
 
 ## 6. Evolução do projeto
