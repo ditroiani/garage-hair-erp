@@ -1,6 +1,6 @@
 -- ============================================================================
 -- GARAGE HAIR ERP | 03 - TESTES DE INTEGRIDADE
--- Base: 01_estrutura.sql + 02_carga_dados.sql
+-- Base: 01-estrutura.sql + 02-carga_dados.sql
 -- 45 TESTES | 5 POR MODULO
 -- ============================================================================
 
