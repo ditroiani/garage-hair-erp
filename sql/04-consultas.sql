@@ -1,6 +1,6 @@
 -- ============================================================================
 -- GARAGE HAIR ERP | 04 - CONSULTAS SQL
--- Compativel com: estrutura.sql + 02-carga_dados.sql
+-- Compativel com: 01-estrutura.sql + 02-carga_dados.sql
 -- ============================================================================
 USE garage_hair_erp;
 
